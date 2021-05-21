@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Form</title>
+</head>
+<body>
+    <h2>Register</h2>
+    <p>Please fill in this form to create an account</p>
+    <hr>
+    <form action="/action">
+        <div>
+    <label for="name" name="name"
+    id="name"
+    required>Name</label>
+    <input type="text" placeholder="Name"></div>
+    <div>
+    <label for="email">Email</label>
+    <input type="email" placeholder="Enter Email"></div>
+    <div>
+    <label for="Contact">Contact</label>
+    <input type="number" placeholder="Name"></div>
+    <div>
+    <label for="gender">Gender</label>
+    <input type="radio" name="male" id="male">Male
+    <input type="radio" name="female" id="female" value="Female">Female</div>
+    
+    <div>
+        <label for="course"><b>Select course</b></label>
+        <select id="course" name="course">
+          <option value="DSA">DSA</option>
+          <option value="Frontend">Frontend</option>
+          <option value="Backend">Backend</option>
+          <option value="Fullstack">Fullstack</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="description"><b>Short Introdction</b></label>
+        <textarea
+          placeholder="Introdction"
+          name="description"
+          id="description"
+          required
+        ></textarea>
+      </div>
+
+      <div>
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="password"
+          id="psw"
+          required
+        />
+      </div>
+
+      <div>
+        <input type="checkbox" id="tc" name="tc" required />
+        <label for="tc"> By creating an account you agree to our </label>
+        <a href="#">Terms & Privacy</a>.
+      </div>
+
+      <button type="submit" class="registerbtn">Register</button>
+</form>
+
+</body>
+</html>
