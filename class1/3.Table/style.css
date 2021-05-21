@@ -16,19 +16,54 @@ ul li{
     font-size: larger;
     font-weight: 800;
 }
+ul li a{
+    text-decoration: none;
+    color: #eee;
+}
 nav{
     background-color: blueviolet;
     margin: 10px;
     border-radius: 5px;
+    color: #eee;
 }
 
 .table{
     margin: 10px;
+    font-family:'PT Sans',sans-serif;
+    margin:auto;
+    margin-top: 50px;
+    text-align: center;     
+    width:80%;
+    overflow:hidden;
+    border-radius: 15px;
 }
 table{
-    width: 500px;
-    height: 200px;
+    border-collapse: collapse;
+
 }
-.st {
+thead {
+    border-radius: 10px 10px 0 0;
+    color:white;
+    border-radius: 10px;
     background-color: blueviolet;
+}
+.table thead th{
+    padding:20px 5px;
+}
+.table tbody td{
+    padding:20px 5px;
+    color:gray;
+}
+.table tbody tr{
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    
+}
+.table tbody tr:nth-child(2n){
+    background-color:rgb(218, 215, 210);
+    
+}
+.table tbody tr:last-child{
+    border-bottom:1px solid #eee;
+    border-radius: 5px;
 }
