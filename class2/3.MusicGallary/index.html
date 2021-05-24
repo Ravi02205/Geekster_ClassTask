@@ -6,12 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MUsic-Gallary</title>
     <style>
-              .music-box {
-        text-align: center;
-        background-color: #cccccc;
-        float: left;
-        margin: 10px;
-      }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: lightcoral;
+        }
+        h1{
+            font-weight: 700;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .container{
+            border-radius: 15px;
+            height: 80vh;
+            width: 90vw;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: row;
+            background-color: aqua;
+        }
+       
     </style>
 </head>
 <body>
@@ -22,22 +46,16 @@
                 <!-- <audio controls> 
                     <source src="">
                 </audio> -->
-                    <iframe src="https://open.spotify.com/embed/track/5ng9duWuWbHlwviFSh5Vqx" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" style="background-color: cadetblue;"></iframe>
+                    <iframe src="https://open.spotify.com/embed/track/5ng9duWuWbHlwviFSh5Vqx" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" style="background-color: cadetblue;" ></iframe>
                 </div>
         </div>
         <div class="music-box">
             <div>
-                <!-- <audio controls> 
-                    <source src="">
-                </audio> -->
                 <iframe src="https://open.spotify.com/embed/track/47Slg6LuqLaX0VodpSCvPt" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
         </div>
         <div class="music-box">
             <div>
-                <!-- <audio controls> 
-                    <source src="">
-                </audio> -->
                 <iframe src="https://open.spotify.com/embed/track/47a8ZHfi1MYmiSVVdS7gId" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
         </div>

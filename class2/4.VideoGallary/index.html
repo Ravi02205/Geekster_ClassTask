@@ -5,20 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video-Gallary</title>
+    <style>
+                *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color:bisque;
+        }
+        h1{
+            font-weight: 700;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        section{
+            border-radius: 10px;
+            height: 80vh;
+            width: 80vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+            background-color:azure;
+        }
+        .video-box{
+            height: 200px;
+            width: 300px;
+            /* margin-top: 250px; */
+        }
+    </style>
 </head>
 <body>
     <h1>Video-Gallary</h1>
     <section>
         <div class="video-box">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/jEJI6Nf1aWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube.com/embed/jEJI6Nf1aWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="video-box">
-            <video height="150" controls>
+            <video height="150px" controls>
                 <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
             </video>
         </div>
         <div class="video-box">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/SjhBeIz1tDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/SjhBeIz1tDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
 </body>
